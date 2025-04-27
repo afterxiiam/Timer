@@ -1,5 +1,5 @@
 // src/app/api/start-time/route.js
-import { db } from '../../../lib/firebase';
+import { db } from '../../../lib/firebase.js';
 
 export async function handler(req, res) {
   if (req.method === 'GET') {
